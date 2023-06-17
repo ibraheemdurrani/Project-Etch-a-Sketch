@@ -31,9 +31,6 @@ function getSize() {
     let msg = document.getElementById("msg")
     if (input == "") {
         msg.innerText = "Please Provide us a number"
-        if( input == true){
-            msg.innerText = "";
-        }
     }
     else if (input < 0 || input > 100) {
         msg.innerText = "Provide a Number Between 1 and 100";
